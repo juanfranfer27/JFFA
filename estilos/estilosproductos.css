@@ -1,0 +1,161 @@
+.contenedor{
+	width: 996px;
+	margin:0px auto;
+	font-size: 1em;
+}
+
+article , aside{
+		padding: 10px;
+}
+
+article {
+	float: left;
+	width: 70%;
+}
+
+#section1 {
+	width: 95%;
+	background-color: #858F92;
+	display: block;
+	padding: 5px;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	}
+
+	aside{
+	width: 25%;
+	background-color: #0736A7;
+	float: right;
+	padding: 10px;
+	margin-bottom: 5px;
+	}
+
+#textaside {
+	text-align: justify;
+	padding: 10px;
+}
+
+
+nav {
+	overflow: hidden;
+}
+
+nav ul{
+	list-style-type: none;
+	float: left;
+	padding: 0px;
+}
+
+nav ul li {
+	float: left;
+	padding: 3px 10px;
+	margin: 2px;
+	background:#0736A7;
+}
+
+ nav ul li a {
+ 	text-decoration: none;
+ 	color: black;
+ 	display: block;
+ 	}
+
+ nav ul li:hover{
+	background: #2B7BCB;
+}
+
+footer {
+	text-align: center;
+	clear: both;
+	font-size: 12px;
+	background: #0E35A5;
+}
+
+#twitterimg , #faceimg , #instaimg { 
+	width:30px;
+	height: 30px;
+}
+
+h1 , h2 , #nombre , #prod {
+	font-size: 25px;
+	font-weight: bolder;
+	text-align: center;
+   }
+
+aside ul li a {
+	color: black;
+}
+
+aside, footer, #section1, nav ul li{
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	-o-border-radius:10px;
+	}
+
+@media screen and (max-width: 980px){
+		.contenedor{
+			width: 98%;
+		}
+		article{
+			width: 69%;
+		}
+}
+
+@media screen and (max-width: 800px){
+		
+		.contenedor{
+			width: 90%;
+		}
+		article , aside{
+			float: none;
+		}
+
+		article {
+			width: 98%
+		}
+
+		aside {
+			margin-top: 5px;
+			width: 92%;
+		}
+		footer{
+			width: 95%;
+		}
+		
+}
+
+@media screen and (max-width: 700px){	
+		
+		article , aside{
+			float: none;
+		}
+
+		article {
+			width: 98%
+		}
+
+		aside {
+			margin-top: 5px;
+			width: 92%;
+		}
+		footer{
+			width: 96%;
+		}
+}
+
+@media screen and (max-width: 600px){
+	aside {
+		display: none;
+	}
+	nav ul {
+		width: 95%;
+	}
+	nav ul li {
+		text-align: center;
+		float: none;
+		font-size: 20px;
+	}
+	footer{
+			width: 95%;
+		}
+
+}
